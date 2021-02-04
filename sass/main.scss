@@ -1,0 +1,33 @@
+@import "reset";
+@import "app";
+@import "header";
+@import "root";
+@import "animations";
+@import "test";
+@import "section";
+@import "section_about";
+@import "section_experience";
+@import "section_work";
+@import "section_game";
+@import "section_contact";
+@import "mixin";
+
+
+
+.container {
+  max-width: 1700px;
+  margin: 0 auto;
+
+  @include notebook {
+    max-width: 1200px;
+  }
+
+  @include tablet {
+    max-width: 900px;
+  }
+
+  @include mobile {
+    max-width: 700px;
+  }
+
+}

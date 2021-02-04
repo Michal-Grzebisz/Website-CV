@@ -1,0 +1,140 @@
+@import "mixin";
+
+.header {
+  height: 100vh;
+  background-image: url("/images/header_wallpaper_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 83px;
+
+
+  }
+
+  &__frame {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 2px -2px var(--color-white-shadow);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+
+    &__active {
+      background: rgba(2, 2, 2, 0.9);
+      box-shadow: 0 4px 2px -2px var(--color-white-shadow);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  }
+
+  &__logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1875rem;
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+    @include notebook {
+      font-size: 1.5rem;
+    }
+  }
+
+  .nav {
+
+    &__element {
+      padding: 0 26px;
+
+      @include tablet {
+        padding: 0 5px;
+      }
+
+
+      &:last-child {
+        padding-right: 0;
+        color: var(--color-white);
+      }
+    }
+
+
+    &__link {
+      color: var(--color-white);
+      font-weight: 500;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      padding: 28px 18px 22px;
+      border-bottom: 4px solid transparent;
+      letter-spacing: 0.1875rem;
+      text-decoration: none;
+
+      @include notebook {
+        font-size: 1.2rem;
+      }
+
+      @include tablet {
+        font-size: 1.1rem;
+
+      }
+
+      &:hover {
+        color: var(--color-black);
+        background:var(--color-white-trasnparenty);
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 7.5rem;
+    color: var(--color-white);
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    animation: transitionIn 1s;
+    text-decoration: none;
+
+    @include notebook {
+      font-size: 6rem;
+      text-align: center;
+    }
+
+    h1 {
+      @include mobile {
+        font-size: 4rem;
+        text-align: center;
+        transform: translate(0, -100px);
+      }
+    }
+
+    span {
+      font-size: 2rem;
+      font-weight: 300;
+
+      @include mobile {
+        font-size: 1.5rem;
+        transform: translate(0, -100px);
+      }
+    }
+
+  }
+}
+
