@@ -26,6 +26,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
 
     },
     {
@@ -34,6 +35,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
 
     },
     {
@@ -42,6 +44,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
 
     },  {
         src: "images/work_images/BIG/INT_07.jpg",
@@ -49,6 +52,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
 
     },
     {
@@ -57,6 +61,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
 
     },
     {
@@ -65,6 +70,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
     },
     {
         src: "images/work_images/BIG/EXT_01.jpg",
@@ -72,6 +78,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
 
     },
     {
@@ -80,6 +87,7 @@ const images = [
         customOverlay: <div style={{height:"100%", width:"100%", backgroundColor:"rgba(0, 0, 0, 0.4)"}}/>,
         thumbnailWidth: 320,
         thumbnailHeight: 190,
+        caption: "The Digital Bunch"
     },
     // {
     //     src: "images/work_images/BIG/INT_02.jpg",

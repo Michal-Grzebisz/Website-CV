@@ -11,6 +11,7 @@ const Work3D = ({ open, setOpen}) => {
 
     return (
         <Styled3D open={open} onClick={() => setOpen(!open)}>
+            <div style={{marginBottom:"10px"}}>Gallery</div>
             <div><img src="images/cubes.svg" alt="Cubes" width="300" height="300" /></div>
         </Styled3D>
     )

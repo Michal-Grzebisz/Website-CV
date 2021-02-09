@@ -5,6 +5,10 @@
   padding-bottom: 80px;
   background-color: rgba(0, 0, 0, 0.2);
 
+  @include notebook2 {
+    padding: 70px 50px 0 50px;
+  }
+
   @include mobile {
     padding: 70px 40px 0 40px;
   }
@@ -30,8 +34,9 @@
     margin-top: 30px;
     margin-bottom: 60px;
     font-size: 3rem;
-    font-weight: 100;
+    font-weight: 300;
     color: #3e563e;
+    font-family: 'Lato', sans-serif;
 
   }
 
@@ -49,9 +54,10 @@
     height: 100%;
     box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2);
     margin-bottom: 40px;
+    line-height: 2.3rem;
 
     @include mobile {
-      font-size: 1rem;
+      font-size: 1.2rem;
       margin-right: 0;
     }
 
@@ -74,9 +80,10 @@
     height: 100%;
     box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2);
     margin-bottom: 40px;
+    line-height: 2.3rem;
 
     @include mobile {
-      font-size: 1rem;
+      font-size: 1.2rem;
       margin-left: 0;
     }
 
@@ -86,6 +93,17 @@
       padding-bottom: 20px;
       font-weight: bold;
     }
+  }
+}
+
+.work-list {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+
+  @include mobile {
+    font-size: 1rem;
+    line-height: 1rem;
+
   }
 }
 

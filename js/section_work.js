@@ -42,7 +42,7 @@ const Work = () => {
             <section data-aos="fade" id="section__work">
                 <h1>Work</h1>
                 <div ref={node} style={{display:"flex", justifyContent: "space-around",  flexWrap:"wrap"}}>
-                    <Work3D open={openGallery} setOpen={changeWindowGallery}  />
+                    <Work3D open={openGallery} setOpen={changeWindowGallery} />
                     <Game open={openGame} setOpen={changeWindowGame}  />
                     {openGallery === true ? <Gallery3d open={openGallery}/> : null}
                     {openGame === true ? <GameContent open={openGame}/> : null}
