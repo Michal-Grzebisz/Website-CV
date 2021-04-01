@@ -5,7 +5,7 @@ import { StyledGameContent} from "./work_game_content_style";
 const GameContent = ({open}) => {
     return (
         <StyledGameContent open={open}>
-            <span> Game link url...</span>
+            <span><a href="https://michal-grzebisz.github.io/Flappy_Bird/" target="_blank" style={{color:"grey", textDecoration:"none"}}>Flappy Bird</a></span>
         </StyledGameContent>
     )
 }
