@@ -11,7 +11,8 @@ export const StyledGameContent= styled.div`
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-200%)'};
     padding:30px;
     
-    span {
+    p {
+        margin-bottom:20px;
         
         @include mobile {
         font-size: 1rem;

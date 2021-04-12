@@ -11,7 +11,7 @@ const Game = ({ open, setOpen}) => {
 
     return (
         <StyledGame open={open} onClick={() => setOpen(!open)}>
-            <div style={{marginBottom:"10px"}}>Game</div>
+            <div style={{marginBottom:"10px"}}>Work</div>
             <div><img src="images/gamepad.svg" alt="Cubes" width="300" height="300" /></div>
         </StyledGame>
     )
